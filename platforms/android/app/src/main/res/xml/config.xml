@@ -12,6 +12,9 @@
         <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="BarcodeScanner">
+        <param name="android-package" value="com.phonegap.plugins.barcodescanner.BarcodeScanner" />
+    </feature>
     <name>Garçonete Só de Cenoura</name>
     <description>
        App para o uso das garçonetes dentro do restaurante.
@@ -19,6 +22,8 @@
     <author email="qualquer@email.com" href="https://medium.com/@symfonymaestro">
         André Chaves
     </author>
+    <access origin="http://cozinhapp.sergiolopes.org" />
+    <allow-intent href="tel:*" />
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
     <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
     <icon density="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
